@@ -136,9 +136,9 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     transition: 3s all ease;
  }
  .readmore:hover{
-    transform: scale(1.2);
-    background-color: ;
-   
+    background: radial-gradient(circle at 11.4% 50%, rgb(244, 244, 21) 0%, rgb(240, 16, 162) 90%);
+    transform: scale(1.2); 
+    transition: 3s all ease;
  }
 .readmore i{
     color: #E02C6D;
@@ -169,12 +169,20 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     background-color:#E02C6D;
     color: white;
     font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+}
+.watch-now:hover{
+    background: radial-gradient(circle at 11.4% 50%, rgb(255, 37, 174) 0%, rgb(250, 237, 56) 90%);
+    z-index: -3;
+    transform:rotate(360deg);
+    transition: 3s all ease;
 }
 #highlights{
 
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 158px;
 }
 .higlightes-main{
     display: flex;
@@ -189,4 +197,100 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 .highlights-right{
     width: 567px;
     height: 427px;
+}
+.get-touch{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#do-email{
+    width: 1050px;
+    display: flex;
+    margin-left: 185px;
+    margin-right: 100px;
+}
+#information{
+    width: 500px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-align: center;
+    border: none;
+    margin-top: 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+#messege{
+    width: 500px;
+    height: 150px;
+    border:none ;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}
+.btn-submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#football-logo{
+    /* width: 1440px; */
+    margin-bottom: 63px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.football-img-text{
+    margin-top: 12.42px;
+    margin-bottom: 50.16px;
+}
+.football-logo-img{
+    margin-bottom: 20px;
+}
+.social-media{
+    width: 483.87px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-media i{
+    width: 32px;
+    height: 32px;
+    margin-right: 14px;
+    padding: 10px;
+    color: gray;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+.copyright{
+    font-family: "poppins";
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#timeline{
+    background-color: #2e362e;
+    /* width: 1400px; */
+    margin: 0 auto;
+}
+.container-2{
+    padding: 10px 15px;
+    position: relative;
+    width: 50%;
+    background: rgba(0,0,0,0.3);
+}
+.textbox{
+    padding: 20px 30px;
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.container-left{
+    left: 0;
+}
+.container-right{
+    left: 50%;
 }
